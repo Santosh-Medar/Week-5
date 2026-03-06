@@ -1,0 +1,43 @@
+vec<-sample(1:50, 10, replace=TRUE)
+print(vec)
+max_val <-max(vec)
+min_val <-min(vec)
+sum_val <-sum(vec)
+rev_val <-rev(vec)
+print(max_val)
+print(min_val)
+print(sum_val)
+print(rev_val)
+
+# Create two vectors
+vec1 <- c(2, 4, 6, 8, 10)
+vec2 <- c(1, 3, 5, 7, 9)
+
+# Perform arithmetic operations
+addition <- vec1 + vec2
+subtraction <- vec1 - vec2
+multiplication <- vec1 * vec2
+division <- vec1 / vec2
+
+# Square each element of the vectors
+square_vec1 <- vec1^2
+square_vec2 <- vec2^2
+
+# Print results
+print("Addition:")
+print(addition)
+
+print("Subtraction:")
+print(subtraction)
+
+print("Multiplication:")
+print(multiplication)
+
+print("Division:")
+print(division)
+
+print("Square of vec1:")
+print(square_vec1)
+
+print("Square of vec2:")
+print(square_vec2)
